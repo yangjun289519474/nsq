@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+#add test comment
 GOMAXPROCS=1 go test -timeout 90s ./...
 GOMAXPROCS=4 go test -timeout 90s -race ./...
 
