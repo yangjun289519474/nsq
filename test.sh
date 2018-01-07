@@ -1,7 +1,9 @@
 #!/bin/bash
 set -e
 
-#add test comment
+#future1, add sume function
+#this is my first future
+
 GOMAXPROCS=1 go test -timeout 90s ./...
 GOMAXPROCS=4 go test -timeout 90s -race ./...
 
