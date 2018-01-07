@@ -4,6 +4,10 @@ set -e
 #add test comment
 #hello world
 
+#5
+#6
+#6
+
 GOMAXPROCS=1 go test -timeout 90s ./...
 GOMAXPROCS=4 go test -timeout 90s -race ./...
 
